@@ -8,6 +8,8 @@ RUN apt-get update && apt-get install -y \
     libheif-examples \
     libraw-bin \
     mesa-va-drivers \
+    i965-va-driver-shaders \
+    libva2 \
     vainfo \
     && rm -rf /var/lib/apt/lists/*
 
