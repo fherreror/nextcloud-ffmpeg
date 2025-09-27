@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y \
     exiftool \
     libheif-examples \
     libraw-bin \
+    php-imagick \
     mesa-va-drivers \
     libva2 \
     vainfo \
